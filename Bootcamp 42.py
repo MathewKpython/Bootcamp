@@ -1,7 +1,8 @@
 
 def Palindrome(word):
     """
-        
+        Zwraca wartość typu boolean
+        czy podany tekst 'word' jest palindromem
     """
     word = word.lower()
     length = len(word)
