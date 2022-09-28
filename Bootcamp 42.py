@@ -1,5 +1,8 @@
 
 def Palindrome(word):
+    """
+        
+    """
     word = word.lower()
     length = len(word)
     if length < 2:
@@ -8,9 +11,9 @@ def Palindrome(word):
         return Palindrome(word[1: length - 1])
     else:
         return False
-word = "Kajak"
+word = "Kajxak"
 answer = Palindrome(word)
 if answer:
-    print("Yes")
+    print(bool(Palindrome(word)))
 else:
-    print("No")
+    print(bool(Palindrome(word)))
